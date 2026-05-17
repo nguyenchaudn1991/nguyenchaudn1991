@@ -1,4 +1,4 @@
-# Nguyễn Phúc Nguyên Châu — Delivery Consultant · BrSE JP-VN · Web & System Architect
+# Nguyễn Phúc Nguyên Châu (Nguyen Chau) — Delivery Consultant · BrSE · Delivery Manager Vietnam Japan
 
 <p align="center">
   <a href="https://nguyenchau.dev"><strong>nguyenchau.dev</strong></a> | 
