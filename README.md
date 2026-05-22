@@ -1,4 +1,4 @@
-# Nguyễn Phúc Nguyên Châu (Nguyen Chau) — Delivery Consultant · BrSE · Delivery Manager Vietnam Japan
+# Nguyễn Phúc Nguyên Châu (Nguyen Chau) — Delivery Manager · BrSE · Delivery Manager Vietnam Japan
 
 <p align="center">
   <a href="https://nguyenchau.dev"><strong>nguyenchau.dev</strong></a> | 
@@ -25,7 +25,7 @@
 
 ## ✦ Về Tôi
 
-Tôi là **Nguyên Châu**, một **One-Person Delivery Consultant** (Tư vấn & Triển khai giải pháp số độc lập) hoạt động song song tại **Đà Nẵng (Việt Nam)** và **Tokyo (Nhật Bản)**. 
+Tôi là **Nguyên Châu**, hiện đang đảm nhiệm vai trò **Delivery Manager & System Architect**, hoạt động song song tại **Đà Nẵng (Việt Nam)** và **Tokyo (Nhật Bản)**. 
 
 Với hơn **14 năm thực chiến** từ lập trình, thiết kế kiến trúc hệ thống đến quản trị vận hành và hơn **8 năm làm việc trực tiếp với thị trường Nhật Bản (BrSE / Delivery Manager)**, tôi đồng hành cùng các doanh nghiệp vừa và nhỏ (SME) cũng như các Startup công nghệ để:
 *   **Thoát khỏi bẫy phụ thuộc nhân sự cũ:** Chuẩn hóa quy trình vận hành và số hóa tri thức doanh nghiệp vào hệ thống cốt lõi (Core System) độc lập.
@@ -36,7 +36,7 @@ Với hơn **14 năm thực chiến** từ lập trình, thiết kế kiến tr�
 
 ## ✦ Các Gói Giải Pháp Cốt Lõi
 
-### 1. Web App & Hệ Thống Nội Bộ May Đo (Custom Core Systems)
+### 1. Kiến Trúc Web App & Hệ Thống Nội Bộ (Core Systems Architecture)
 *   **Giải pháp:** Xây dựng hệ thống quản trị vận hành đặc thù (ERP/CRM/HRM thu nhỏ, Quản lý sản xuất, Kho hàng thông minh, Vận tải) ăn khớp hoàn toàn với quy trình đặc thù của doanh nghiệp.
 *   **Giá trị mang lại:** Tối ưu hóa sâu, sở hữu vĩnh viễn mã nguồn và dữ liệu (không lệ phí thuê bao SaaS hàng tháng), giao diện tối giản tối đa để nhân sự không rành công nghệ cũng dùng được dễ dàng.
 
@@ -48,7 +48,7 @@ Với hơn **14 năm thực chiến** từ lập trình, thiết kế kiến tr�
 *   **Giải pháp:** Cầu nối kỹ thuật & ngôn ngữ (JLPT Business). Dịch chuyển chính xác yêu cầu (Specs/Requirements) từ đối tác Nhật thành sơ đồ kiến trúc hệ thống rõ ràng cho đội ngũ Dev Việt Nam triển khai thần tốc.
 *   **Giá trị mang lại:** Triển khai đúng tiến độ, đúng spec, 0% miscommunication tax, tối ưu hóa chi phí sản xuất phần mềm tại Việt Nam cho thị trường Nhật.
 
-### 4. Thiết Kế Website Cao Cấp & Tối Ưu Chuyển Đổi (High-End Web Design & CRO)
+### 4. Tối Ưu & Xây Dựng Kiến Trúc Website (Website Architecture & Optimization)
 *   **Giải pháp:** Audit và Rebuild cấu trúc giao diện website doanh nghiệp dựa trên số liệu phân tích hành vi người dùng thực tế.
 *   **Giá trị mang lại:** Chuyển đổi lượng truy cập sẵn có thành đơn hàng thực tế (từ 0 lên 8 đơn/tháng), tốc độ tải trang tối ưu đạt điểm xanh lá cây trên Google PageSpeed.
 
@@ -79,7 +79,7 @@ Với hơn **14 năm thực chiến** từ lập trình, thiết kế kiến tr�
 
 ## ✦ About Me
 
-I am **Nguyen Chau**, a **One-Person Delivery Consultant** (Independent Digital Solutions Consultant & Implementer) operating dynamically between **Da Nang (Vietnam)** and **Tokyo (Japan)**.
+I am **Nguyen Chau**, a **Delivery Manager & System Architect** operating dynamically between **Da Nang (Vietnam)** and **Tokyo (Japan)**.
 
 With over **14 years of hands-on experience** spanning software engineering, system architecture design, and operational management, coupled with **8+ years working directly with the Japanese market (as a BrSE / Delivery Manager)**, I help SMEs and tech startups:
 *   **Escape the Legacy Personnel Trap:** Standardize business processes and digitize organizational knowledge into independent, custom Core Systems.
@@ -90,7 +90,7 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 
 ## ✦ Core Services
 
-### 1. Custom Core Systems (Web App & Internal Systems)
+### 1. Core Systems Architecture (Web App & Internal Systems)
 *   **Solution:** Building customized operational management software (tailored ERP/CRM/HRM, manufacturing controls, smart warehousing, logistics dispatch) designed to fit 100% of your business processes.
 *   **Business Value:** Deep operational optimization, complete ownership of source code and data (no recurring SaaS subscription fees), and an ultra-minimalist UI that non-tech staff can use on day one.
 
@@ -102,7 +102,7 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 *   **Solution:** Professional engineering and linguistic bridge (JLPT Business). Translating complex Japanese requirements and specifications into clear, production-ready system architecture and guiding Vietnamese dev teams to deliver rapidly.
 *   **Business Value:** On-time delivery, accurate implementation of Japanese quality standards, zero miscommunication tax, and optimized production costs.
 
-### 4. High-End Web Design & Conversion Rate Optimization (CRO)
+### 4. Website Architecture & Optimization
 *   **Solution:** Auditing and rebuilding corporate websites to maximize user experience and drive real business outcomes.
 *   **Business Value:** Transforming passive website traffic into real customers (from 0 to 8+ online orders/month) while maintaining perfect PageSpeed scores.
 
@@ -133,7 +133,7 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 
 ## ✦ 自己紹介
 
-**グエン・フック・グエン・チャウ（Nguyễn Phúc Nguyên Châu）**と申します。**ダナン（ベトナム）**と**東京（日本）**を拠点に活動する、独立系の**デリバリー・コンサルタント（デジタルソリューションの提案・開発一括サポート）**です。
+**グエン・フック・グエン・チャウ（Nguyễn Phúc Nguyên Châu）**と申します。**ダナン（ベトナム）**と**東京（日本）**を拠点に活動する、**Delivery Manager & System Architect**です。
 
 **14年以上の実践的なエンジニアリング・システムアーキテクト設計・プロジェクト管理経験**と、**8年間の日越ブリッジSE（BrSE）およびデリバリーマネージャーとしての実績（JLPTビジネスレベル）**を活かし、中小企業（SME）やスタートアップ企業を対象に以下の支援を行っています。
 *   **属人化（特定のキーマンへの依存）からの脱却:** 業務プロセスを標準化し、個人の頭の中にある業務知識を、独自のコアシステム（基幹システム）へとデジタル化・資産化します。
@@ -144,7 +144,7 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 
 ## ✦ 提供可能なソリューション
 
-### 1. カスタム基幹システム開発（Web App & 社内システム）
+### 1. コアシステムアーキテクチャ（Web App & 社内システム）
 *   **ソリューション:** 貴社独自の業務フローに100%フィットする管理システム（ミニERP/CRM/HRM、製造工程管理、スマート倉庫・在庫管理、配車運行管理など）をフルスクラッチで構築。
 *   **ビジネス価値:** 徹底した業務の効率化、ソースコードおよびデータの完全な所有（高額なSaaSの月額サブスクリプションからの脱却）、ITに不慣れな現場スタッフでも直感的に使える超シンプルUI設計。
 
@@ -156,7 +156,7 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 *   **ソリューション:** 言語と技術の両面をカバーするブリッジSE（BrSE）。日本側の要件や意図を正確に理解し、ベトナム人開発チームが即座に開発可能なシステム設計書へ落とし込み、品質・進捗を徹底管理します。
 *   **ビジネス価値:** 納期の厳守、日本の品質基準に準拠した確実なデリバリー、伝達ミスによる手戻りの防止。
 
-### 4. プレミアムWebデザイン＆コンバージョン率最適化（CRO）
+### 4. Webサイトアーキテクチャ設計＆最適化
 *   **ソリューション:** 現行サイトのユーザー行動データを詳細に分析（Audit）し、無駄のない洗練されたUI/UXへのリビルドおよび高速化を行います。
 *   **ビジネス価値:** 同じアクセス数のまま、Webサイトからの新規問い合わせや注文数を最大化（例：月0件→月8件以上の実績）。Google PageSpeedスコアでの高得点獲得。
 
@@ -207,5 +207,5 @@ With over **14 years of hands-on experience** spanning software engineering, sys
 ---
 
 <p align="center">
-  <i>© 2026 Nguyên Châu · Delivery Consultant (VN/JP)</i>
+  <i>© 2026 Nguyên Châu · Delivery Manager (VN/JP)</i>
 </p>
