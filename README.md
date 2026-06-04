@@ -2,12 +2,14 @@
   <h2>Nguyễn Phúc Nguyên Châu (Nguyen Chau)</h2>
   <p><b>Delivery Manager · System Architect · BrSE (VN/JP)</b></p>
   <p>14 YOE · PMP® · JLPT Business</p>
-  <p>
-    <a href="https://nguyenchau.dev">nguyenchau.dev</a> | 
-    <a href="mailto:nguyenchaudn1991@gmail.com">nguyenchaudn1991@gmail.com</a> | 
-    Zalo (+84) 906 448 135
-  </p>
-  
+</div>
+<p align="center">
+  <a href="https://nguyenchau.dev"><strong>nguyenchau.dev</strong></a> | 
+  <a href="mailto:nguyenchaudn1991@gmail.com"><strong>nguyenchaudn1991@gmail.com</strong></a> | 
+  <a href="https://zalo.me/0906448135"><strong>Zalo (+84) 906 448 135</strong></a> | 
+  <a href="https://www.linkedin.com/in/chaunpndeliverymanager/"><strong>LinkedIn Profile</strong></a>
+</p>
+<div align="center">
   <br />
   <a href="#-tiếng-việt">🇻🇳 Tiếng Việt</a> • 
   <a href="#-english">🇬🇧 English</a> • 
