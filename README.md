@@ -28,7 +28,7 @@
 - **Phương pháp thực thi:** Bắt đầu từ tư duy kiến trúc đúng. Xây dựng hệ thống lõi (Core System) ổn định và các luồng dữ liệu tự động (Thin Data Layer) để tối ưu vận hành dài hạn.
 
 #### ✦ Về Tôi & Lộ Trình Thực Thi
-Tôi là Nguyên Châu, hoạt động song song tại Đà Nẵng và Tokyo. Với hơn 14 năm kinh nghiệm, tôi trực tiếp chịu trách nhiệm từ khâu thiết kế kiến trúc hệ thống đến vận hành thực tế.
+Mình là Nguyên Châu, hoạt động song song tại Đà Nẵng và Tokyo. Với hơn 14 năm kinh nghiệm, mình trực tiếp chịu trách nhiệm từ khâu thiết kế kiến trúc hệ thống đến vận hành thực tế.
 
 - **2022 - Nay (GMO RUNSYSTEM):** Delivery Unit Manager / System Architect. Chịu trách nhiệm kiến trúc và vận hành hệ thống đa quốc gia. Xây dựng lại quy trình communication để giảm delivery friction, quản lý team 43 kỹ sư.
 - **2019 - 2022:** Triển khai Core System & Custom AI cho các tập đoàn bảo hiểm hàng đầu Nhật Bản. Trực tiếp vận hành vòng đời dự án từ Upstream đến Downstream.
@@ -40,9 +40,13 @@ Tôi là Nguyên Châu, hoạt động song song tại Đà Nẵng và Tokyo. V�
 2. **AI & Workflow Automation**
    - Ứng dụng AI và thiết lập "data layer mỏng" vào đúng quy trình thực tế. Giảm thao tác thủ công, tối thiểu chi phí bản quyền bằng các công cụ mã nguồn mở (n8n, Metabase).
 3. **Delivery Management (JP-VN)**
-   - Dịch chuyển chính xác yêu cầu từ đối tác Nhật thành sơ đồ kiến trúc hệ thống. Team Dev nhìn kiến trúc để lập trình, loại bỏ hoàn toàn thuế hiểu lầm (miscommunication tax).
+   - Dịch chuyển chính xác yêu cầu từ đối tác Nhật thành sơ đồ kiến trúc hệ thống. Team Dev code thẳng từ kiến trúc, giảm tối đa sai sót và hiểu lầm khi truyền đạt yêu cầu.
 4. **Kiến Trúc Chuẩn SEO, AEO & GEO**
    - Quy hoạch cấu trúc thông tin (Information Architecture) tối ưu cho cả người dùng lẫn Generative AI.
+
+#### ✦ Knowledge Base — Học & Ôn Claude (đang cập nhật)
+Ghi chú tiếng Việt + đề thi thử cho lộ trình chứng chỉ **Claude (Anthropic Academy)** — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Viết lại theo góc nhìn Delivery Manager, không tóm tắt suông.
+→ **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ Case Studies Tiêu Biểu
 
@@ -53,14 +57,16 @@ Tôi là Nguyên Châu, hoạt động song song tại Đà Nẵng và Tokyo. V�
 | **AI Chính phủ / Edge AI** | Kiến trúc data pipeline OCR + Human-in-loop và model Edge AI YOLO phân tích luồng di chuyển. | Đóng gói thành commercial product độ trễ thấp, trình diễn tại Nhật Bản. |
 | **Chuỗi Spa Cao Cấp (~120 NS)** | Xây dựng Data layer mỏng giữa app đặt lịch và MISA qua n8n pipeline + Metabase. | Giảm thời gian khóa sổ từ 3 ngày -> **30 phút**. Sai lệch tồn kho **< 4%**. |
 
+> Chi tiết kiến trúc & câu chuyện từng dự án: **[nguyenchau.dev/portfolio](https://nguyenchau.dev/portfolio)**
+
 #### ✦ Triết Lý Hệ Thống
 - **Scope Cutting trước khi Code:** Không số hóa quy trình sai. Luôn hỏi "Quy trình này có thể lược bỏ bước nào?" trước khi bắt tay vào phát triển phần mềm.
 - **Công nghệ phục vụ vận hành:** Một hệ thống tốt không chỉ "chạy được" lúc demo, mà phải chịu tải ổn định và giảm gánh nặng thao tác cho nhân sự.
 - **Tự chủ dữ liệu:** Bàn giao toàn bộ kiến trúc cơ sở dữ liệu. Doanh nghiệp làm chủ hoàn toàn tài sản số, không bị khóa (vendor lock-in).
 
 #### ✦ Kết Nối & Trao Đổi
-Tôi có góc nhìn, kinh nghiệm và system thinking — nếu bài toán phù hợp, chúng ta có thể trao đổi. Hãy gửi cho tôi một vài thông tin ngắn gọn về case của bạn. 
-Tôi thường chỉ phản hồi các case phù hợp với chuyên môn, quỹ thời gian và mức độ ưu tiên hiện tại.
+Mình có góc nhìn, kinh nghiệm và system thinking — nếu bài toán phù hợp, chúng ta có thể trao đổi. Hãy gửi cho mình một vài thông tin ngắn gọn về case của bạn. 
+Mình thường chỉ phản hồi các case phù hợp với chuyên môn, quỹ thời gian và mức độ ưu tiên hiện tại.
 
 - **Gửi bài toán hệ thống:** [nguyenchau.dev/lien-he](https://nguyenchau.dev/lien-he)
 - **Email:** nguyenchaudn1991@gmail.com
@@ -90,9 +96,13 @@ I am Nguyen Chau, operating dynamically between Da Nang and Tokyo. With over 14 
 2. **AI & Workflow Automation**
    - Integrate AI and thin data layers into actual workflows. Reduce manual tasks and minimize licensing costs using open-source tools (n8n, Metabase).
 3. **Delivery Management (JP-VN)**
-   - Translate complex Japanese requirements into clear system architectures. Developers code based on architecture, dropping the miscommunication tax to 0%.
+   - Translate complex Japanese requirements into clear system architectures. Developers code straight from the architecture, minimizing rework caused by miscommunication.
 4. **Architecture for SEO, AEO & GEO**
    - Engineer Information Architecture optimized for both users and Generative AI engines.
+
+#### ✦ Knowledge Base — Learning & Reviewing Claude (in progress)
+Vietnamese notes + practice exams for the **Claude (Anthropic Academy)** certification path — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Written from a Delivery Manager's lens, not shallow summaries.
+→ **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ Featured Case Studies
 
@@ -102,6 +112,8 @@ I am Nguyen Chau, operating dynamically between Da Nang and Tokyo. With over 14 
 | **Japanese Insurance (Top 5)**| Engineered a Custom RAG Chatbot with a "3-tier review" system to prevent hallucination. | Sped up search 6x, fully **FSA-compliant**, reduced CS ops costs by 40%. |
 | **Gov AI & Edge AI Robotics** | Architected OCR + Human-in-loop data pipelines and optimized Edge AI YOLO models. | Packaged into low-latency commercial products showcased in Japan. |
 | **Premium Spa Chain (~120 staff)**| Built a thin data layer connecting the booking app and MISA accounting via n8n workflows. | Book-closing cut from 3 days to **30 mins**. Inventory variance **< 4%**. |
+
+> Detailed architecture & project stories: **[nguyenchau.dev/portfolio](https://nguyenchau.dev/portfolio?lang=en)**
 
 #### ✦ System Philosophy
 - **Scope Cutting Before Code:** Never digitize an inefficient process. I always ask "Which step in this process can we eliminate?" before writing software.
@@ -140,9 +152,13 @@ I typically only respond to cases that align with my expertise, time availabilit
 2. **AI & ワークフロー自動化**
    - AIと薄いデータ層を実際の業務フローに組み込みます。オープンソースツール（n8n, Metabase）を活用し、手作業を減らしライセンス費用を最小化します。
 3. **デリバリーマネジメント (BrSE)**
-   - 日本の要件を正確なシステム設計図に変換します。開発チームは設計図に基づいてコードを書くため、伝達ミスによる手戻りを完全にゼロにします。
+   - 日本の要件を正確なシステム設計図に変換します。開発チームは設計図に基づいてコードを書くため、伝達ミスによる手戻りを最小限に抑えます。
 4. **SEO、AEO、GEOアーキテクチャ**
    - ユーザーと生成AIエンジンの双方に最適化された情報アーキテクチャ（Information Architecture）を設計します。
+
+#### ✦ ナレッジベース — Claudeの学習・復習（更新中）
+**Claude（Anthropic Academy）** 認定ルートの学習ノートと模擬試験（ベトナム語）— Claude 101、AI Fluency、AI Capabilities & Limitations、MCP、Claude Code。表面的な要約ではなく、デリバリーマネージャーの視点で再構成。
+→ **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ 大規模システムの実績
 
@@ -152,6 +168,8 @@ I typically only respond to cases that align with my expertise, time availabilit
 | **日本大手保険会社（トップ5）** | ハルシネーションを防ぐ「3段階レビュー」を備えたCustom RAGチャットボットを開発。 | 検索スピードを6倍に高速化。**FSA基準**に完全準拠し、CS運用コストを40%削減。 |
 | **AI自動化 / エッジAIロボティクス** | OCR＋Human-in-loopのデータパイプライン構築。エッジAI（YOLO）の最適化。 | 低遅延の商用プロダクトとしてパッケージ化し、日本の技術展示会で披露。 |
 | **高級スパチェーン（従業員約120名）** | 予約アプリとMISA会計を結ぶデータ層を構築（n8n + Metabase）。 | 月次締め処理時間を3日間から**30分**に短縮。棚卸し差異を**4%未満**に改善。 |
+
+> 各プロジェクトのアーキテクチャ詳細・ストーリー：**[nguyenchau.dev/portfolio](https://nguyenchau.dev/portfolio?lang=ja)**
 
 #### ✦ 開発・設計の理念 (System Philosophy)
 - **開発前のスコープ削減：** 無駄なプロセスをデジタル化してはいけません。コードを書く前に、必ず「どのステップを省略できるか」を問いかけます。
