@@ -8,12 +8,12 @@ mcp = FastMCP("DocumentMCP", log_level="ERROR")
 
 
 docs = {
-    "deposition.md": "This deposition covers the testimony of Angela Smith, P.E.",
-    "report.pdf": "The report details the state of a 20m condenser tower.",
-    "financials.docx": "These financials outline the project's budget and expenditures.",
-    "outlook.pdf": "This document presents the projected future performance of the system.",
-    "plan.md": "The plan outlines the steps for the project's implementation.",
-    "spec.txt": "These specifications define the technical requirements for the equipment.",
+    "deposition.md": "Bản lời khai này ghi lại lời chứng thực của bà Nguyễn Thị Kim Anh, Kỹ sư trưởng về tháp ngưng tụ.",
+    "report.pdf": "Bản báo cáo kỹ thuật chi tiết về tình trạng vận hành và an toàn của tháp ngưng tụ cao 20m.",
+    "financials.docx": "Tài liệu tài chính khái quát ngân sách, chi tiêu và phân bổ dòng vốn của dự án.",
+    "outlook.pdf": "Tài liệu này trình bày dự báo kết quả hoạt động và triển vọng tăng trưởng của hệ thống trong tương lai.",
+    "plan.md": "Bản kế hoạch phác thảo chi tiết các bước thực hiện và timeline để triển khai dự án.",
+    "spec.txt": "Các thông số kỹ thuật quy định yêu cầu bắt buộc đối với thiết bị công nghiệp.",
 }
 
 @mcp.tool(
