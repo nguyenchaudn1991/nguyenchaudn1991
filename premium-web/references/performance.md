@@ -91,4 +91,4 @@ Nguyên tắc: hiệu ứng nào phá ngân sách → cắt hiệu ứng, không
 1. Lighthouse mobile (DevTools hoặc PageSpeed Insights) — mục tiêu **Performance ≥ 90**.
 2. Soi từng chỉ số: LCP element là gì? CLS đến từ đâu (font swap? ảnh thiếu size?)? INP handler nào?
 3. Test màn hình hẹp 375px và throttle CPU 4x.
-4. Nếu có skill `mobile-first-performance` trong môi trường → có thể gọi bổ sung cho audit sâu (Next.js/iOS); không bắt buộc.
+4. Ưu tiên test trên thiết bị thật (iPhone đời thấp) khi có thể — lab score ≠ trải nghiệm thật trên 4G.
