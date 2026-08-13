@@ -7,7 +7,7 @@ description: >-
   "Workers + D1 + R2". Also use when porting a Hono app between Cloudflare and AWS.
   Do NOT trigger for frontend-only work, static sites without a backend, or
   projects already committed to another framework (Next.js, Express, Rails…).
-allowed-tools: Read, AskUserQuestion
+allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, Skill
 ---
 
 # Hono Stack — 1 codebase, chạy Cloudflare hoặc AWS

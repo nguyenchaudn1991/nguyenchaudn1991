@@ -8,7 +8,7 @@ description: >-
   report. Keywords: 敬語, viết mail khách Nhật, soạn tin nhắn khách. Do NOT trigger
   for: 議事録 and 工数見積 (company process, owned by another role); requirement
   analysis / 要件定義 (→ skill jp-requirement).
-allowed-tools: Read, AskUserQuestion
+allowed-tools: Read, Write, AskUserQuestion, Skill
 ---
 
 # JP Comm — giao tiếp chuẩn manner với khách Nhật cấp cao

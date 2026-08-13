@@ -8,7 +8,7 @@ description: >-
   dịch spec, spec breakdown. Do NOT trigger for: 工数見積 / estimates and 議事録
   (company process, owned by another role); situation-based client communication —
   障害報告/催促/納期交渉/謝罪/依頼, Q&A管理, 週次報告 (→ skill jp-comm).
-allowed-tools: Read, AskUserQuestion
+allowed-tools: Read, Write, Edit, AskUserQuestion, Skill
 ---
 
 # JP Requirement — phân tích yêu cầu → 要件定義書 → spec cho dev

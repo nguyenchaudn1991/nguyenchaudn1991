@@ -6,7 +6,7 @@ description: >
   trích dẫn được, tăng tín hiệu E-E-A-T, hreflang/canonical, sitemap. Dùng khi audit site
   đã có hoặc nâng cấp on-page/technical. KHÔNG dùng khi chỉ tối ưu tốc độ thuần (không có
   mục tiêu SEO), hoặc khi đang build trang mới (on-page cơ bản thuộc skill build web).
-allowed-tools: Read, AskUserQuestion
+allowed-tools: Read, Write, Edit, Bash, WebFetch, AskUserQuestion, Skill
 ---
 
 # SEO · AEO · GEO · E-E-A-T — audit & nâng cấp

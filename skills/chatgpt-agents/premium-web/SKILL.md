@@ -78,6 +78,7 @@ một loại AI vibe, chỉ tinh vi hơn.
 User chọn 1 hướng → mới build. Nếu user nói **"tự quyết"**, agent chọn hướng recommended,
 ghi 2–3 lý do ngắn rồi tiếp tục, không chặn tiến độ. Mọi quyết định sau đó phải truy được về
 thesis đã chọn. Không có direction → không được code, vì lúc đó chỉ còn cách chạy theo mặc định.
+(Áp cho build mới/redesign. Sửa scoped thì bỏ qua — xem bước 3 của quy trình.)
 
 **Ba hướng phải khác nhau về bản chất**, không phải 3 biến thể màu của cùng một layout.
 Nếu cả 3 đều ra desaturated + 1 accent + masonry thì đó chưa phải 3 hướng — đó là 1 hướng
@@ -174,15 +175,23 @@ Direction nào cũng phải đạt. Đây là phần phân biệt "đẹp trong 
    - Chỉ đề xuất brand kit mới khi: **greenfield không có brand**, hoặc user **nói rõ là muốn
      redesign**. Nghi ngờ → hỏi 1 câu, đừng tự quyết.
 
-   10 luật anti AI-vibe bên dưới là **house style cho trường hợp mình được quyết**. Vào repo
-   có sẵn hệ thống thiết kế thì nhất quán với hệ thống đó thắng, trừ khi user yêu cầu ngược lại.
+   Mục B (mặc định của nhà) bên dưới chỉ áp **cho trường hợp mình được quyết**. Vào repo có sẵn
+   hệ thống thiết kế thì nhất quán với hệ thống đó thắng, trừ khi user yêu cầu ngược lại.
+   Mục A (bất biến) và D (khách Nhật) thì áp trong mọi trường hợp.
 1. **Xác định type + load refs** theo bảng routing (chỉ hỏi nếu không rõ type).
 2. **Khảo sát ngắn:** lĩnh vực, audience (Nhật? → thêm japanese-quality.md), brand có sẵn (màu/logo/font), nội dung đầu vào.
-3. **Creative direction — 2–3 hướng khác nhau về bản chất** theo bảng ở mục "Triết lý" bên trên.
-   User chọn 1 hướng rồi mới sang bước 4; nếu user giao "tự quyết", agent chọn hướng recommended,
-   ghi 2–3 lý do và đi tiếp. Brand kit (palette + font + motif) **suy ra từ direction đã chọn**,
-   không phải chọn trước rồi mới nghĩ concept. Bước 0 xác định là repo có sẵn design system →
-   direction phải nằm trong khuôn khổ hệ thống đó, không đề xuất brand kit mới.
+3. **Creative direction — quy mô theo việc, đừng máy móc:**
+   - **Site/trang mới hoặc redesign** → bắt buộc **2–3 hướng khác nhau về bản chất** theo bảng
+     ở mục "Triết lý". User chọn 1 rồi mới sang bước 4; user giao "tự quyết" → agent chọn
+     hướng recommended, ghi 2–3 lý do và đi tiếp.
+   - **Thêm section/trang vào site đã có direction** → không làm lại direction. Ghi 1–2 dòng
+     phần mới nối vào thesis sẵn có thế nào, rồi build.
+   - **Sửa scoped** (đổi copy, chỉnh spacing, fix responsive, sửa bug) → **bỏ qua bước này.**
+     Bám design system hiện hữu; chỉ mục A (bất biến) và E (nghề) còn áp.
+
+   Brand kit (palette + font + motif) **suy ra từ direction đã chọn**, không phải chọn trước rồi
+   mới nghĩ concept. Bước 0 xác định repo có sẵn design system → direction phải nằm trong khuôn
+   khổ hệ thống đó, không đề xuất brand kit mới.
 4. **Build** theo cấu trúc trong type file, bám direction đã chọn. HTML semantic, CSS-first,
    JS tối thiểu. Mọi quyết định thị giác phải truy được về thesis.
 5. **Render và audit trước khi bàn giao** — mở trang thật, chụp ít nhất desktop 1440px và mobile
@@ -202,6 +211,6 @@ Direction nào cũng phải đạt. Đây là phần phân biệt "đẹp trong 
 | Coi mục B/C như luật cấm | B là mặc định (lệch được, nói lý do); C cấm **cliché mặc định**, không cấm kỹ thuật. Chỉ A và D mới là bất biến |
 | Direction nào cũng ra desaturated + 1 accent + masonry | Đó là mặc định mới, cũng là AI vibe. Direction phải khác nhau về **bản chất** |
 | Load cả 4 type file "cho chắc" | Chỉ load type được chọn |
-| Bỏ qua anti-ai-vibe.md vì "đã nhớ 10 luật" | 10 luật là tóm tắt; audit cuối phải theo checklist đầy đủ |
+| Bỏ qua anti-ai-vibe.md vì "đã nhớ rồi" | SKILL.md chỉ là tóm tắt phân tầng; audit cuối phải theo checklist đầy đủ |
 | Thêm GSAP/Lenis cho type 1/3/4 | Thư viện scroll chỉ được phép trong type-scroll.md, đúng tier quy định |
 | Khách Nhật nhưng quên japanese-quality.md | Type 1 luôn load; type khác load khi audience Nhật |

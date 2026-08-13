@@ -99,6 +99,7 @@ const oac = new cloudfront.FunctionUrlOriginAccessControl(this, "Oac", {
 > **Test bắt buộc:** `curl` thẳng vào Function URL phải trả `403`. Nếu trả `200` là còn
 > đường bypass — chưa được lên production. Nếu hạ tầng công ty bắt buộc `NONE`, phải bù
 > bằng cách verify shared secret header do CloudFront gắn, ngay tại tầng app.
+
 Nếu công ty dùng Terraform/SAM/Serverless Framework → giữ nguyên phần code Hono, chỉ
 viết lại khối IaC theo chuẩn đó.
 

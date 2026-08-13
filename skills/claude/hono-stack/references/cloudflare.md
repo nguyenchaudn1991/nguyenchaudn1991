@@ -34,7 +34,7 @@ Mặc định cho dự án cá nhân. Entry: `export default app` — Workers hi
 ```
 
 > ⚠️ **KHÔNG tạo script nào chạy `schema.sql` với `--remote`.** `schema.sql` có
-> `DROP TABLE IF EXISTS` (mục 9) → một lệnh là mất sạch dữ liệu production, và tên script
+> `DROP TABLE IF EXISTS` (blueprint.md mục 9) → một lệnh là mất sạch dữ liệu production, và tên script
 > kiểu `db:remote` khiến người/Agent gõ nhầm rất dễ. `schema.sql` **chỉ dùng cho local**.
 > Mọi thay đổi schema trên môi trường đã live đi qua migration tăng dần (mục 3).
 
