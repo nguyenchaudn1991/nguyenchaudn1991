@@ -9,7 +9,7 @@ description: >-
   website; (4) "web LP" / "landing page" / "LP chuyển đổi" — conversion landing page.
   Do NOT auto-trigger on general web design, CSS, frontend, or dashboard requests
   that lack these keywords.
-allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, Skill
+allowed-tools: Bash, Read, Write, Edit, AskUserQuestion, Skill
 ---
 
 # Premium Web — 4 loại website, 1 chuẩn chất lượng

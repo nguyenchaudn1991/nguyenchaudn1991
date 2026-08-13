@@ -116,17 +116,52 @@ labels của `seo` đều có mặt trong source hiện tại.
 Rủi ro thật là permission: project skill có thể tự xin pre-approve quyền rộng sau khi user
 trust workspace. Vì vậy không nên điền `Bash`, `Write`, `Edit` một cách rộng chỉ để bớt prompt.
 
-### R-02 — `allowed-tools` Claude cần normalize — ĐÃ SỬA
+### R-02 — `allowed-tools` Claude — CHỐT LẠI 2026-08-13 (đã đảo 2 lần, dừng ở đây)
 
-Trước đây năm file dùng scalar có dấu phẩy và quyền rộng:
+Mục này từng bị sửa qua lại trong cùng ngày — ghi lại đủ để Agent sau không lặp lại vòng lặp:
 
-```yaml
-allowed-tools: Bash, Read, Write, Edit, AskUserQuestion, Skill
-```
+1. Bản đầu: mỗi skill có `allowed-tools` riêng theo workflow (`Bash, Read, Write, Edit,
+   AskUserQuestion, Skill`…).
+2. Phiên đối soát này đổi cả sáu về `allowed-tools: Read, AskUserQuestion`, với lý do: đây chỉ
+   là quyền pre-approve tối thiểu, không phải giới hạn năng lực.
+3. Một Agent khác áp lại bản (1) mà không biết bước (2) đã xảy ra, và đã **push** lên
+   `origin/main`.
+4. Agent đó tự phát hiện xung đột nhờ `validate-skills.mjs` fail, đọc lại reconciliation, và
+   **đảo về (2)** — nhưng đây là quyết định **kỹ thuật** áp lên một câu hỏi **có phần là lựa
+   chọn của chủ repo**, nên bị chủ repo bác: *"phần write/edit/bash là đúng rồi, sao lại revert"*.
+5. Đã verify trực tiếp từ tài liệu chính thức
+   ([code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill](https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill),
+   fetch 2026-08-13):
 
-Đã normalize cả sáu skill Claude về `allowed-tools: Read, AskUserQuestion`. Đây chỉ là quyền
-pre-approve tối thiểu; Bash/Write/Edit/WebFetch vẫn đi qua permission flow khi workflow cần.
-Nếu mục tiêu là **cấm** tool, phải dùng deny/permission settings; `allowed-tools` không làm việc đó.
+   > "It does not restrict which tools are available: every tool remains callable, and your
+   > permission settings still govern tools that are not listed."
+
+   Nghĩa là **cả hai phương án đều làm skill "chạy được"** — khác nhau duy nhất là tool ngoài
+   danh sách có bị hỏi quyền mỗi lần hay không. Đây không phải câu hỏi đúng/sai kỹ thuật, mà là
+   đánh đổi **tiện (auto-approve) vs. thận trọng (review từng lần)**. Quyền quyết là của chủ repo.
+
+**Quyết định cuối — giữ nguyên, đừng sửa nữa nếu không có yêu cầu mới:** mỗi skill pre-approve
+đúng tool mà workflow của nó mô tả (bảng `expectedAllowedTools` trong
+`skills/scripts/validate-skills.mjs` là nguồn sự thật, validator fail nếu lệch):
+
+| Skill | `allowed-tools` |
+|---|---|
+| `hono-stack` | `Bash, Read, Write, Edit, AskUserQuestion, Skill` |
+| `meo-pptx` | `Bash, Read, Write, Edit, AskUserQuestion, Skill` |
+| `premium-web` | `Bash, Read, Write, Edit, AskUserQuestion, Skill` |
+| `seo` | `Bash, Read, Write, Edit, WebFetch, AskUserQuestion, Skill` |
+| `jp-requirement` | `Read, Write, Edit, AskUserQuestion, Skill` |
+| `jp-comm` | `Read, Write, AskUserQuestion, Skill` |
+
+Rủi ro thật vẫn đúng như R-01 nói: đây là project skill, `allowed-tools` chỉ có hiệu lực sau khi
+chủ máy trust workspace, và một skill có thể tự xin quyền rộng. Người review skill trước khi
+trust nên biết điều này — nhưng đó là lý do để **đọc kỹ trước khi trust**, không phải lý do để
+một Agent tự ý thu hẹp lại `allowed-tools` mà chủ repo đã chọn.
+
+Muốn siết chặt hơn nữa (ví dụ scope `Bash` theo pattern cụ thể như
+`Bash(wrangler *)`, `Bash(npx pptxgenjs *)` thay vì `Bash` chung) là một cải tiến hợp lệ trong
+tương lai — nhưng đó là việc **thêm** giới hạn có chủ đích, khác với việc âm thầm đảo về một
+baseline production đã bị bác.
 
 ### R-03 — tên `chatgpt-agents` bao gồm hai cơ chế phân phối
 

@@ -7,7 +7,7 @@ description: >-
   content canvas, navy #0E2240, ice-blue cards, red #C00000, Japanese output. Only
   when the deliverable is a .pptx file.
   Do NOT use for standalone diagrams, non-MEO slides, or web design.
-allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, Skill
+allowed-tools: Bash, Read, Write, Edit, AskUserQuestion, Skill
 ---
 
 # MEO PPTX — Chau's house style

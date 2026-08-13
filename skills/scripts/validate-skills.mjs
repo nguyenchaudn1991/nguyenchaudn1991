@@ -11,6 +11,25 @@ const expectedSkills = [
   "premium-web",
   "seo",
 ];
+
+// `allowed-tools` pre-approves tools for the turn that invokes the skill — it does NOT
+// restrict which tools are callable (every tool remains available; unlisted tools just go
+// through the normal permission prompt). Verified against
+// https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill (fetched 2026-08-13).
+// Owner's explicit decision (2026-08-13): scope each skill's grant to what its own
+// documented workflow does, so running the skill doesn't stop for a prompt on every write/
+// bash/fetch call it makes as part of normal use. Do not "fix" this back to a single minimal
+// set for all six — that was tried and reverted once already; see
+// SKILL-AUDIT-RECONCILIATION.md §R-02 for the full history.
+const expectedAllowedTools = {
+  "hono-stack": "Bash, Read, Write, Edit, AskUserQuestion, Skill", // scaffolds code, runs wrangler
+  "jp-comm": "Read, Write, AskUserQuestion, Skill", // drafts text; rarely needs Bash/Edit
+  "jp-requirement": "Read, Write, Edit, AskUserQuestion, Skill", // writes 要件定義書 to file
+  "meo-pptx": "Bash, Read, Write, Edit, AskUserQuestion, Skill", // pptxgenjs, markitdown, render QA
+  "premium-web": "Bash, Read, Write, Edit, AskUserQuestion, Skill", // builds site, measures PageSpeed
+  seo: "Bash, Read, Write, Edit, WebFetch, AskUserQuestion, Skill", // curl raw HTML, read official docs
+};
+
 const errors = [];
 
 function filesUnder(dir) {
@@ -98,8 +117,13 @@ for (const edition of editions) {
     for (const field of fields.keys()) {
       if (!allowedFields.has(field)) errors.push(`${skillFile}: unsupported frontmatter field ${field}`);
     }
-    if (edition === "claude" && fields.get("allowed-tools") !== "Read, AskUserQuestion") {
-      errors.push(`${skillFile}: Claude pre-approved tools must be exactly Read, AskUserQuestion`);
+    if (edition === "claude") {
+      const expected = expectedAllowedTools[skill];
+      if (!expected) {
+        errors.push(`${skillFile}: no expected allowed-tools entry for skill "${skill}" in validate-skills.mjs`);
+      } else if (fields.get("allowed-tools") !== expected) {
+        errors.push(`${skillFile}: allowed-tools must be exactly "${expected}" (see expectedAllowedTools in this script)`);
+      }
     }
     validateLinks(text, skillFile);
   }
