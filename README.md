@@ -2,6 +2,7 @@
   <h2>Nguyễn Phúc Nguyên Châu (Nguyen Chau)</h2>
   <p><b>Delivery Manager · System Architect · BrSE (VN/JP)</b></p>
   <p>14 YOE · PMP® · JLPT N1</p>
+  <p>Claude Certified Architect - Foundations · Anthropic · <a href="https://www.credly.com/badges/8a2e110b-3686-42f2-bdc6-36cf8795f078">verify</a></p>
 </div>
 <p align="center">
   <a href="https://nguyenchau.dev"><strong>nguyenchau.dev</strong></a> | 
@@ -44,8 +45,8 @@ Mình là Nguyên Châu, làm việc tại Đà Nẵng cho thị trường Việ
 4. **Kiến Trúc Chuẩn SEO, AEO & GEO**
    - Quy hoạch cấu trúc thông tin (Information Architecture) tối ưu cho cả người dùng lẫn Generative AI.
 
-#### ✦ Knowledge Base — Học & Ôn Claude (đang cập nhật)
-Ghi chú tiếng Việt + đề thi thử cho lộ trình chứng chỉ **Claude (Anthropic Academy)** — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Viết lại theo góc nhìn Delivery Manager, không tóm tắt suông.
+#### ✦ Knowledge Base — Học & Ôn Claude
+Ghi chú tiếng Việt + đề thi thử cho 12 khoá **Anthropic Academy** và kỳ thi **Claude Certified Architect - Foundations** — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Viết lại theo góc nhìn Delivery Manager, không tóm tắt suông. Đây cũng là bộ tài liệu mình dùng để ôn và thi đậu CCA-F (09/2026).
 → **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ Case Studies Tiêu Biểu
@@ -99,8 +100,8 @@ I am Nguyen Chau, based in Da Nang, working across the Vietnam–Japan market. W
 4. **Architecture for SEO, AEO & GEO**
    - Engineer Information Architecture optimized for both users and Generative AI engines.
 
-#### ✦ Knowledge Base — Learning & Reviewing Claude (in progress)
-Vietnamese notes + practice exams for the **Claude (Anthropic Academy)** certification path — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Written from a Delivery Manager's lens, not shallow summaries.
+#### ✦ Knowledge Base — Learning & Reviewing Claude
+Vietnamese notes + practice exams covering 12 **Anthropic Academy** courses and the **Claude Certified Architect - Foundations** exam — Claude 101, AI Fluency, AI Capabilities & Limitations, MCP, Claude Code. Written from a Delivery Manager's lens, not shallow summaries. This is also the material I used to study for and pass CCA-F (September 2026).
 → **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ Featured Case Studies
@@ -154,8 +155,8 @@ I analyse, design, and deliver the work myself. If you have a system problem, se
 4. **SEO、AEO、GEOアーキテクチャ**
    - ユーザーと生成AIエンジンの双方に最適化された情報アーキテクチャ（Information Architecture）を設計します。
 
-#### ✦ ナレッジベース — Claudeの学習・復習（更新中）
-**Claude（Anthropic Academy）** 認定ルートの学習ノートと模擬試験（ベトナム語）— Claude 101、AI Fluency、AI Capabilities & Limitations、MCP、Claude Code。表面的な要約ではなく、デリバリーマネージャーの視点で再構成。
+#### ✦ ナレッジベース — Claudeの学習・復習
+**Anthropic Academy** の12コースと **Claude Certified Architect - Foundations** 試験に対応した学習ノートと模擬問題（ベトナム語）— Claude 101、AI Fluency、AI Capabilities & Limitations、MCP、Claude Code。表面的な要約ではなく、デリバリーマネージャーの視点で再構成。2026年9月のCCA-F合格も、この教材で準備しました。
 → **[nguyenchau.dev/learn/claude](https://nguyenchau.dev/learn/claude)**
 
 #### ✦ 大規模システムの実績
