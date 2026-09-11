@@ -2,6 +2,13 @@
   <h2>Nguyễn Phúc Nguyên Châu (Nguyen Chau)</h2>
   <p><b>Delivery Manager · System Architect · BrSE (VN/JP)</b></p>
   <p>14 YOE · PMP® · JLPT N1</p>
+  <p>
+    <a href="https://www.credly.com/badges/8a2e110b-3686-42f2-bdc6-36cf8795f078">
+      <img src="https://images.credly.com/size/340x340/images/f2040db3-3904-4240-8966-e87b1510bea0/blob"
+           alt="Claude Certified Architect – Foundations, issued by Anthropic — verify on Credly"
+           width="110" height="110" />
+    </a>
+  </p>
   <p>Claude Certified Architect - Foundations · Anthropic · <a href="https://www.credly.com/badges/8a2e110b-3686-42f2-bdc6-36cf8795f078">verify</a></p>
 </div>
 <p align="center">
