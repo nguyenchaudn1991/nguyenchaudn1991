@@ -38,9 +38,9 @@
 #### ✦ Về Tôi & Lộ Trình Thực Thi
 Mình là Nguyên Châu, làm việc tại Đà Nẵng cho thị trường Việt – Nhật. Với hơn 14 năm kinh nghiệm, mình trực tiếp chịu trách nhiệm từ khâu thiết kế kiến trúc hệ thống đến vận hành thực tế.
 
-- **2022 - Nay (GMO RUNSYSTEM):** Delivery Manager / System Architect.
-- **2019 - 2022:** Triển khai Core System & Custom AI cho các tập đoàn bảo hiểm hàng đầu Nhật Bản. Trực tiếp vận hành vòng đời dự án từ Upstream đến Downstream.
-- **2014 - 2019:** Lead Engineer thiết kế kiến trúc Big Data (Hadoop, HBase) xử lý 100+ triệu records cho chuỗi cung ứng toàn cầu.
+- **2022 - Nay:** Delivery Manager / System Architect.
+- **2019 - 2022:** Triển khai Core System cho các tập đoàn bảo hiểm hàng đầu Nhật Bản, thêm Custom RAG AI từ 2020. Trực tiếp vận hành vòng đời dự án từ Upstream đến Downstream.
+- **2013 - 2017:** Lead Engineer thiết kế kiến trúc Big Data (Hadoop, HBase) xử lý 100+ triệu records cho chuỗi cung ứng toàn cầu.
 
 #### ✦ Năng Lực & Chuyên Môn Cốt Lõi
 1. **System Architecture (Web App & Core Systems)**
@@ -60,7 +60,7 @@ Ghi chú tiếng Việt + đề thi thử cho 12 khoá **Anthropic Academy** và
 
 | Hệ Thống / Dự Án | Góc Nhìn Kiến Trúc & Thực Thi | Kết Quả Vận Hành |
 | --- | --- | --- |
-| **Bảo Hiểm Nhật (Top 5)** | Thiết kế Custom RAG AI Chatbot với cơ chế "3-tier review" chống hallucination. | Rút ngắn thời gian tra cứu của bộ phận CS, tuân thủ chuẩn **FSA**. |
+| **Bảo Hiểm Nhật (Top 5)** | Thiết kế Custom RAG AI Chatbot với cơ chế "3-tier review" chống hallucination — ngành chịu giám sát của FSA, trả lời sai là rủi ro pháp lý. | Rút ngắn thời gian tra cứu của bộ phận CS. |
 | **AI Chính phủ / Edge AI** | Kiến trúc data pipeline OCR + Human-in-loop và model Edge AI YOLO phân tích luồng di chuyển. | Đóng gói thành commercial product độ trễ thấp, trình diễn tại Nhật Bản. |
 | **Chuỗi Spa Cao Cấp (~120 NS)** | Xây dựng Data layer mỏng giữa app đặt lịch và MISA qua n8n pipeline + Metabase. | Khoá sổ hằng tháng chuyển từ đối chiếu thủ công sang tự động; tồn kho đối soát theo ngày thay vì theo đợt. |
 
@@ -92,9 +92,9 @@ Mình trực tiếp phân tích, thiết kế và triển khai. Nếu bạn đan
 #### ✦ About Me & Career Timeline
 I am Nguyen Chau, based in Da Nang, working across the Vietnam–Japan market. With over 14 years of experience, I take direct responsibility from system architecture design to actual delivery and operations.
 
-- **2022 - Present (GMO RUNSYSTEM):** Delivery Manager / System Architect.
-- **2019 - 2022:** Deployed Core Systems & Custom AI for top-tier insurance groups in Japan. Managed the full project lifecycle from Upstream to Downstream.
-- **2014 - 2019:** Lead Engineer architecting Big Data platforms (Hadoop, HBase) processing 100+ million records for a global electronics supply chain.
+- **2022 - Present:** Delivery Manager / System Architect.
+- **2019 - 2022:** Deployed Core Systems for top-tier insurance groups in Japan, adding a Custom RAG AI from 2020. Managed the full project lifecycle from Upstream to Downstream.
+- **2013 - 2017:** Lead Engineer architecting Big Data platforms (Hadoop, HBase) processing 100+ million records for a global electronics supply chain.
 
 #### ✦ Core Capabilities
 1. **System Architecture (Web App & Core Systems)**
@@ -114,7 +114,7 @@ Vietnamese notes + practice exams covering 12 **Anthropic Academy** courses and 
 
 | System / Project | Architectural Approach | Operational Results |
 | --- | --- | --- |
-| **Japanese Insurance (Top 5)**| Engineered a Custom RAG Chatbot with a "3-tier review" system to prevent hallucination. | Cut CS lookup time, fully **FSA-compliant**. |
+| **Japanese Insurance (Top 5)**| Engineered a Custom RAG Chatbot with a "3-tier review" system to prevent hallucination — a regulated industry where a wrong answer is a legal risk. | Cut CS lookup time. |
 | **Gov AI & Edge AI Robotics** | Architected OCR + Human-in-loop data pipelines and optimized Edge AI YOLO models. | Packaged into low-latency commercial products showcased in Japan. |
 | **Premium Spa Chain (~120 staff)**| Built a thin data layer connecting the booking app and MISA accounting via n8n workflows. | Monthly book-closing moved from manual reconciliation to automated; inventory reconciled daily instead of in batches. |
 
@@ -146,9 +146,9 @@ I analyse, design, and deliver the work myself. If you have a system problem, se
 #### ✦ キャリアと実績 (Career Timeline)
 ダナンを拠点に、日越市場のプロジェクトに携わっています。14年以上の経験を活かし、システムアーキテクチャの設計から実際のデリバリーや運用まで、直接責任を持って遂行します。
 
-- **2022 - 現在 (GMO RUNSYSTEM):** Delivery Manager / System Architect。
-- **2019 - 2022:** 日本トップクラスの保険グループ向けに、基幹システムおよびCustom AIを導入。上流から下流までプロジェクト全体を統括。
-- **2014 - 2019:** リードエンジニアとして、グローバルサプライチェーン向けのビッグデータ基盤（Hadoop, HBase・1億レコード以上）を設計。
+- **2022 - 現在:** Delivery Manager / System Architect。
+- **2019 - 2022:** 日本トップクラスの保険グループ向けに基幹システムを導入し、2020年からCustom RAG AIも構築。上流から下流までプロジェクト全体を統括。
+- **2013 - 2017:** リードエンジニアとして、グローバルサプライチェーン向けのビッグデータ基盤（Hadoop, HBase・1億レコード以上）を設計。
 
 #### ✦ 専門分野 (Core Capabilities)
 1. **システムアーキテクチャ（Web App & 社内システム）**
@@ -168,7 +168,7 @@ I analyse, design, and deliver the work myself. If you have a system problem, se
 
 | システム / プロジェクト | アーキテクチャと実装 | 運用成果 |
 | --- | --- | --- |
-| **日本大手保険会社（トップ5）** | ハルシネーションを防ぐ「3段階レビュー」を備えたCustom RAGチャットボットを開発。 | CS部門の検索時間を短縮。**FSA基準**に準拠。 |
+| **日本大手保険会社（トップ5）** | ハルシネーションを防ぐ「3段階レビュー」を備えたCustom RAGチャットボットを開発。金融庁の監督下にあり、誤答が法的リスクに直結する業界。 | CS部門の検索時間を短縮。 |
 | **AI自動化 / エッジAIロボティクス** | OCR＋Human-in-loopのデータパイプライン構築。エッジAI（YOLO）の最適化。 | 低遅延の商用プロダクトとしてパッケージ化し、日本の技術展示会で披露。 |
 | **高級スパチェーン（従業員約120名）** | 予約アプリとMISA会計を結ぶデータ層を構築（n8n + Metabase）。 | 月次締めを手作業の突合から自動処理へ移行。棚卸しをバッチではなく日次で照合。 |
 
